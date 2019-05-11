@@ -118,6 +118,24 @@
 			</div>
 		</div>
 		<!--banner-end-->
+		
+		<hr>
+		<div class="introduction">
+		
+			<p>Online banking, also known as Internet Banking, is an electronic payment system that enables customers of a bank or other financial institution to conduct a range of financial transactions through the financial institution's website. The online banking system will typically connect to or be part of the core banking system operated by a bank and is in contrast to branch banking which was the traditional way customers accessed banking services.</P>
+			<p>Some banks operate as a direct bank (or virtual bank), where they rely completely on Internet Banking.</p>
+			<p>Internet banking software provides personal and corporate banking services offering features such as viewing account balances, obtaining statements, checking recent transaction and making payments. Access is usually through a secure web site using a username and password.</p>
+			<p>The main purpose of the project on Internet Banking is to manage the details of customer profiles, general information, banking details, account statements etc. The project is totally built at customer and administrative end. The purpose of the project is to build an application program to reduce the manual work for bankers in bank. It also provides features such as viewing account balances, obtaining statements, checking recent transaction and making payments.</p>
+		</div>
+		<hr>
+		<div class="introduction">
+			<p>This web application is developed by Manish Parui, Manpreet Singh, Adrita Majumder, Kushankur Das, Debyendu Ghosh, Masudur Rahaman as major project of BCA in the year of 2019 at Techno India Salt Lake.</p>
+		</div>
+		<hr>
+		<div class="introduction">
+			<p><a href="https://github.com/manishparui/internet-banking">Click here</a> to get the project on GitHub.  And <a href="https://drive.google.com/open?id=1g4K-4Y3xEQhwE9aCyhOLgz326w16qiTR">Click here</a> to get the documentation.</p>
+		</div>
+		
 	</div>
 	<!--main-end-->
 	
