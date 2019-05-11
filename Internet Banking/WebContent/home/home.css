@@ -1,0 +1,266 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 71px;
+	background-color: rgb(50,50,50);
+	z-index: 5;
+}
+.home{
+	position: fixed;
+	top: 16px;
+	left: 74px;
+	width: 32px;
+	height: 32px;
+	color: rgb(255,255,255);
+	font-size: 30px;
+}
+.acc{
+	width: 60%;
+}
+.acc-div{
+	position: fixed;
+	top: 16px;
+	right: 115px;
+	width: 160px;
+	height: 32px;
+	border-radius: 17px;
+	border-style: solid;
+	border-left-style: none; 
+	border-color: rgb(184,232,255);
+	background-color: rgb(50,50,50);
+}
+.acc-div img{
+	position: fixed;
+	top: 12px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: rgb(184,232,255);
+}
+.acc-div h3{
+	position: fixed;
+	top: 4.5px;
+	padding-left: 53px;
+	color: rgb(184,232,255);
+}
+.logout{
+	width: 20%;
+	border-style: solid;
+  
+}
+.logout-btn{
+	position: fixed;
+	top: 22px;
+	right: 20px;
+  	border-radius: 15px;
+  	width: 75px;
+  	height: 27px;
+  	border-style: solid;
+  	background-color: rgb(50,50,50);
+  	color: rgb(255,255,255);
+  	border-color: rgb(255,255,255);
+  	transition: 0.5s;
+}
+.logout-btn:hover{
+  color: rgb(249,92,92);
+  border-color: rgb(249,92,92);
+}
+
+.sidebar {
+	position: fixed;
+	top: 71px;
+	left: 0;
+	width: 15%;
+  	height: 100%;
+  	min-width: 180px;
+  	background-color: rgb(50,50,50);
+  	z-index: 5;
+}
+.sidebar-a {
+  	padding: 6px 8px 6px 16px;
+  	text-decoration: none;
+  	font-size: 20px;
+  	color: #818181;
+  	display: block;
+}
+.sidebar-a-temp {
+  	padding: 6px 8px 6px 16px;
+  	text-decoration: none;
+  	font-size: 20px;
+  	color: #f1f1f1;
+  	display: block;
+}
+.displaynone{
+	display: none;
+}
+
+.main{
+	position: absolute;
+	top: 71px;
+	left: 15%;
+  	width: 85%;
+  	min-width: 820px;
+}
+
+.container{
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	width: 820px;
+	height: auto;
+	padding-top: 10px;
+}
+
+.container-temp{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 820px;
+	height: auto;
+	padding-top: 10px;
+}
+
+.card{
+	font-size: 20px;
+	background-color: rgb(255,255,255);
+	color: rgb(0,0,0);
+	text-align: center;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: rgb(200,200,200);
+	box-shadow: 4px 8px 16px 4px rgba(0,0,0,0.2);
+	margin: 10px;
+}
+
+.card-header{
+	width: 100%;
+	height: 40px;
+	padding-top: 10px;
+	background-color: rgb(50,50,50);
+	color: #03a9f4;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.card-body{
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+}
+
+.last-trans{
+	float: left;
+	width: 550px;
+	height: 350px;
+}
+.last-trans-body{
+	width: 500px;
+	height: 265px;
+	padding: 25px;
+	padding-bottom: 0;
+}
+
+.balance{
+	float: right;
+	width: 200px;
+	height: 115px;
+}
+.balance-body{
+	height: 20px;
+}
+
+.quick-request{
+	float: right;
+	width: 200px;
+	height: 210px;
+}
+
+.quick-request-body{
+	width: 180px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 95px;
+}
+
+.accounts-lists{
+	float: left;
+	width: 800px;
+	height: auto;
+}
+.accounts-lists-body{
+	width: 780px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: auto;
+}
+.btn-ana{
+	float: right;
+	margin-top: 10px;
+	margin-right: 20px;
+	border-radius: 15px;
+  	height: 35px;
+  	border-style: solid;
+  	background-color: rgb(50,50,50);
+  	color: rgb(255,255,255);
+  	border-color: rgb(50,50,50);
+  	font-size: 18px;
+}
+.btn-ana:hover{
+	border-color: #03a9f4;
+	color: #03a9f4;
+	transition: .5s;
+	cursor: pointer;
+}
+.lop{
+	float: left;
+	width: 800px;
+	height: auto;
+}
+.lop-body{
+	width: 780px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: auto;
+}
+.btn-lop-pay{
+	width: 75px;
+	height: 27px;
+	border-radius: 15px;
+	border-style: solid;
+	border-color: rgb(50,50,50);
+	background-color: rgb(50,50,50);
+	color: rgb(255,255,255);
+}
+.stat{
+	width: 800px;
+}
+.stat-body{
+	width: 780px;
+	height: auto;
+	padding: 10px;
+}
+
+
+.striped-table{
+  	border-collapse: collapse;
+  	width: 100%;
+}
+
+.striped-table th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+.striped-table tr:nth-child(even) {background-color: #f2f2f2;}
+}

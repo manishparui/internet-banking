@@ -1,0 +1,85 @@
+.pul{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.7);
+	z-index: 7;
+}
+.login-ctnr{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	padding: 40px;
+	background: rgb(50,50,50);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+	border-radius: 15px;
+	z-index: 10;
+	transition: .5s;
+}
+.login-ctnr h2{
+	margin: 0 0 25px;
+	padding: 0;
+	color: white;
+	text-align: center;
+}
+.login-ctnr .inputbox{
+	position: relative;
+}
+.login-ctnr .inputbox input{
+	width: 100%;
+	padding: 10px 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid white;
+	outline: none;
+	background: transparent;
+	cursor: pointer;
+}
+.login-ctnr .inputbox label{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: white;
+	pointer-events: none;
+	transition: .5s;
+}
+.login-ctnr .inputbox input:focus ~ label,
+.login-ctnr .inputbox input:valid ~ label{
+	top: -20px;
+	left: 0;
+	color: cyan;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+.btn{
+	border-radius: 15px;
+  	width: 60px;
+  	height: 27px;
+  	border-style: solid;
+  	background-color: rgb(50,50,50);
+  	color: rgb(255,255,255);
+  	border-color: rgb(255,255,255);
+}
+.btn:hover{
+	border-color: #03a9f4;
+	color: #03a9f4;
+	transition: .5s;
+	cursor: pointer;
+}
+.btn-login{
+	float: left;
+}
+.btn-cancel{
+	float: right;
+}

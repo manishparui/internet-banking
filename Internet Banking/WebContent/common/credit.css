@@ -1,0 +1,14 @@
+.cr{
+	position: fixed;
+	bottom: 0px;
+	width: 15%;
+	min-width: 180px;
+	height: 130px;
+}
+.cr p{
+	padding: 2%;
+	width: 96%;
+	color: rgb(255,255,255);
+	text-align: justify;
+	font-size: 13px;
+}
