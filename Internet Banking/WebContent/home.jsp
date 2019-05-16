@@ -467,7 +467,7 @@
 						
 					</div>
 					<input type="hidden" name="uname" value=<%=uname %>>
-					<input class="pop-btn-left" type="Submit" name="" value="Apply">
+					<input class="pop-btn-left" type="Submit" name="" value="Create">
 					<button type="button" class="pop-btn-right" onclick="closeNewAccountPopup()">Cancel</button>
 				</form>
 			</div>
